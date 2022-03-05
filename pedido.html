@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./estilos.css">
+    <title>Pedido</title>
+
+</head>
+
+<body style="background-color: #eeac99;">
+    <img src="./Astrocake!.png" alt="logoCake" width="200px" class="center">    
+    <h1>Haz tu pedido!</h1>
+
+    <form action="pedido.js">
+
+    <div>
+    <h2>Ingresa tus datos personales</h2>
+    <label for="Nombre">Ingresa tu nombre</label><br>
+    <input type="text" id="Nombre" name="Nombre" placeholder="Nombre"><br>
+    <label for="Telefono">Ingresa tu telefono</label><br>
+    <input type="number" id="Telefono" name="Telefono" placeholder="Telefono"><br>
+    <label for="Correo">Ingresa tu correo</label><br>
+    <input type="email" id="Correo" name="Correo" placeholder="Correo"><br>
+    </div>
+
+    
+    <h2>Descripcion del pedido</h2>
+    <div>
+    <h2>Elige el sabor</h2>
+    <label for="chocolate">Chocolate</label><br>
+    <input type="checkbox" id="chocolate" name="sabor"><br>
+    <label for="cajeta">Cajeta</label><br>
+    <input type="checkbox" id="cajeta" name="sabor"><br>
+    <label for="vainilla">Vainilla</label><br>
+    <input type="checkbox" id="vainilla" name="sabor"><br>
+    </div>
+
+    <div>
+    <h2>Elige los adornos</h2>
+    <label for="normal">Betun normal</label><br>
+    <input type="checkbox" id="normal" name="adornos"><br>
+    <label for="queso">Betun de queso</label><br>
+    <input type="checkbox" id="queso" name="adornos"><br>
+    <label for="fondant">Betun de fondant</label><br>
+    <input type="checkbox" id="fondant" name="adornos"><br>
+    <label for="figFondant">Figuras de fondant</label><br>
+    <input type="checkbox" id="figFondant" name="adornos"><br>
+    <label for="diseño">Diseño con betun normal</label><br>
+    <input type="checkbox" id="diseño" name="adornos"><br>
+    </div>
+        
+    <br>
+
+    <div>
+    <br>
+    <input type="reset">
+    <br>
+    <input type="submit">   
+    <br>
+    </div>
+    </form>
+
+
+</body>
+</html>
